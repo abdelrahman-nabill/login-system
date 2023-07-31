@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign UP</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-md-8">
+                    <div class="card border-0 rounded-4">
+                        <div class="card-body p-5">
+                            <h2 class="text-center h1 text-white mb-4">Sign Up System</h2>
+                            <div class="inputItems">
+                                <input type="text" id="userName" class="form-control bg-transparent border-1 border-light text-white" >
+                            <label class="text-white">Name</label>
+    
+                            </div>
+    
+                            <p id="nameD" class="text-warning text-center mb-3">Name start with alphabet(aA-zZ) at least 3 character </p>
+                            <div class="inputItems">
+                                <input type="email" id="userEmail" class="form-control bg-transparent border-1 border-light text-white" >
+                            <label class="text-white">Email</label>
+                            </div>
+    
+                            <p id="emailD" class="text-warning text-center mb-3">Valid email (yahoo , gmail , hotmail , outlook) </p>
+                            <div class="inputItems">
+                                <input type="password" id="userPass" class="form-control bg-transparent border-1 border-light text-white">
+                            <label class="text-white">Password</label>
+                            </div>
+                            
+                            <p id="passD" class="text-warning text-center mb-3">minimum 8 digit must have at least one (a-z),(A-Z),(0-9)and special character(!@#$%^&*)  </p>
+                            <a class="text-decoration-none"><button id="submit" class="btn btn-outline-info w-100 mb-4">Sign Up</button></a>
+                            <p class="text-center text-white">You have an account? <span class="decor"> <a href="login.html" class="text-decoration-none text-white">Sign In</a></span> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="Js/signUp.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+</html>
